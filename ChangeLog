@@ -1,0 +1,11 @@
+
+2005-05-16, version 0.1:
+	Initial public release.  Includes support for:
+	  - implicitly decides if it should execute using MPI or
+	    in serial
+	  - using a task pull idiom in order to implicitly distribute
+	    load
+	  - error message output through Rmpi
+	  - code tracing across children
+	  - code tracing of specified functions
+
